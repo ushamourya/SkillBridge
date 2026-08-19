@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  color: white;
+  font-family: Inter, sans-serif;
+  background: radial-gradient(circle at top, #1e1b4b, #0a0a0a);
+}
+.glass {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(12px);
+  border-radius: 16px;
+  padding: 20px;
+  transition: 0.3s;
+}
+
+.glass:hover {
+  transform: translateY(-5px);
+  background: rgba(255, 255, 255, 0.08);
+}
+body {
+  background: radial-gradient(circle at top, #111827, #000000);
+  font-family: sans-serif;
+}
