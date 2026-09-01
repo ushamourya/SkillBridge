@@ -1,69 +1,127 @@
-SkillBridge
+# SkillBridge 
 
-SkillBridge is a full-stack learning platform designed to help users learn new skills through lessons, practice activities, learning roadmaps, and progress tracking.
+SkillBridge is a full-stack learning platform that helps users learn new skills through structured roadmaps, interactive lessons, practice activities, progress tracking, and achievement badges.
 
- Features
+It also provides an **Admin Dashboard** for managing users and learning content.
 
- User registration and login
- Personalized dashboard
- Learning roadmap
- Interactive lessons
- Practice activities
- Practice hub
- Progress tracking
- Admin login
- Admin dashboard
- Secure password handling
- Backend API integration
+---
 
- Technologies Used
+##  Features
 
- Frontend
+###  User Features
 
- React
- Vite
- JavaScript
- JSX
- Tailwind CSS
+- User registration and login
+- Personalized dashboard
+- Learning roadmaps
+- Levels and lessons
+- Interactive questions
+- Practice Hub
+- Progress tracking
+- Achievement badges
+- User profile
 
-Backend
+###  Admin Features
 
- Node.js
- Express
- REST API
- Database
- Password hashing
+- Admin login
+- Admin dashboard
+- User management
+- Roadmap management
+- Level management
+- Lesson management
+- Lesson question management
+- Practice question management
+
+---
 
 
-Install client dependencies:
+## Tech Stack
 
-bash
-cd client
+### Frontend
+
+- React.js
+- JavaScript / JSX
+- Vite
+- Tailwind CSS
+- React Router
+- Axios
+- React Icons
+
+### Backend
+
+- Node.js
+- Express.js
+- REST API
+- MySQL2
+
+### Database
+
+- MySQL
+
+### Authentication & Security
+
+- bcryptjs
+- CORS
+
+---
+
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js
+- npm
+- MySQL
+
+### 1. Clone the Repository
+
+```bash
+git clone <repository-url>
+cd SkillBridge
+```
+
+### 2. Install Frontend Dependencies
+
+```bash
+cd frontend
 npm install
+```
 
+### 3. Install Backend Dependencies
 
-Install server dependencies:
-
-bash
-cd ../server
+```bash
+cd ../backend
 npm install
+```
+
+### 4. Setup MySQL Database
+
+Create the database:
+
+```sql
+CREATE DATABASE skillbridge;
+```
 
 
- Running the Application
+### 5. Run the Backend
 
-Start the backend server:
+```bash
+cd backend
+node filename.js
+```
 
-bash
-cd server
-npm start
+### 6. Run the Frontend
 
+Open another terminal:
 
-Open another terminal and start the frontend:
-
-cd client
+```bash
+cd frontend
 npm run dev
+```
 
+Open the Vite URL shown in your terminal.
 
- Project Purpose
+---
+### SkillBridge
 
-SkillBridge was developed to provide a simple and organized platform where users can follow a learning path, complete lessons, practice their skills, and monitor their progress.
+**Learn. Practice. Track Progress. Achieve.**
